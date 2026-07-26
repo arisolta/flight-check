@@ -1,0 +1,30 @@
+{
+  "trip_settings": {
+    "home_city": "GVA",
+    "destinations": ["DUB", "LON", "STO", "CPH", "LJU", "EDI"],
+    "start_date": "2026-08-03",
+    "min_stay_days_per_city": 2,
+    "max_stay_days_per_city": 4,
+    "city_stay_overrides": {
+      "LON": {
+        "min": 3,
+        "max": 5
+      },
+      "CPH": {
+        "min": 2,
+        "max": 3
+      }
+    },
+    "preferred_departure_window": "morning_afternoon",
+    "max_departure_hour": 15
+  },
+  "cost_weights": {
+    "weight_time": 0.5,
+    "weight_price": 0.3,
+    "weight_geo_deviation": 0.2
+  },
+  "cache_settings": {
+    "cache_ttl_hours": 24,
+    "cache_file": "cache/flight_cache.json"
+  }
+}

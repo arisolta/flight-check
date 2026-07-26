@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# Data and Cache
+cache/*.json
+!cache/.gitkeep
+data/*.dat
+!data/.gitkeep
+
+# Ignore Specification file as requested
+SPECIFICATION.md
